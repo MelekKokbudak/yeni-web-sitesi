@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    border: 1px solid red;
+    background-image: url(resimler/mavi.png);
+   background-color: rgb(8, 8, 89);
+   width: 100%;
+   height: 700px;
+}
+
+.nav{
+    border: 1px solid rgb(31, 201, 65);
+    width: 100%;
+    height: 100px;
+   position: fixed;/*navbarı diğer içeriklerin üzerine sabitler*/
+   z-index: 997;
+}
+
+.logo{
+    border: 1px solid yellow;
+    width: 25%;
+    height: 80px;
+    margin-top:10px;
+}
+
+.logo img{
+    width: 150px;
+    padding-top: 20px;
+    margin-left: 195px;
+}
+
+.menu{
+    display: flex;/*yan yana hizalar*/
+    justify-content: space-around;
+    border: 1px solid yellow;
+    width: 514px;
+    height: 80px;
+   margin-left: 400px;
+    position: relative;
+   bottom: 80px;
+   padding-top:30px ;
+   
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.menu a:hover{
+    color:#025add;
+}
+
+
+.ikon{
+    border: 1px solid navajowhite;
+    width: 110px;
+    height: 40px;
+    margin-left: 1000px;
+    position: relative;
+    bottom: 150px;
+    color: white;
+    background-color: #025add;
+    padding: 10px 18px;
+    font-size: 15px;
+    border-radius: 40px;
+}
+
+.ikon img{
+    border: 1px solid white;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
